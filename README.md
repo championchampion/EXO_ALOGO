@@ -14,13 +14,13 @@ ces 3 variables sont de type entier.
 
 Nous recuprerons les caratères avec la variable c de type  caractère;
 
-Nous parcorons la phrase à l'aide d'une variable i de type entier qui permet de l'incrementataion 
+Nous parcourons la phrase à l'aide d'une variable i de type entier qui permet de l'incrementataion 
 
 
 1: pour compter le nombre de caratère nous parcourons la phrase à chaque caratère nous faisons l'incrementation jusqu'a ce que nous arrivons au point.
 
 
-2: pour compter le nombre de voyelles nous parcourons la phrase caractère par caratère nous faisons l'incrementation à chaque fois que nous rencontrons un caratère qui est identique à l'un des caratères que nous avons indiqué jusqu'a ce que nous arrivons au point.
+2: pour compter le nombre de voyelles nous parcourons la phrase caractère par caratère nous faisons l'incrementation à chaque fois que nous rencontrons un caratère qui est identique à l'un des caratères que nous avons indiqué (soit a ou i ou e ou u ou o ou y) comme reference  jusqu'a ce que nous arrivons au point.
 
 3: pour compter le nombre de mots  nous utilisons une variable alpha de type booleen initialisé à l'état faux
 nous parcourons la phrase caratère par caractère et quand nous rencontrons un caractère qui est une lettre de l'alphabet nous declarons le booleen vrai c'est à dire que nous commencons un mot  et nous conservons cet état vrai jusqu'a ce nous rencontrons un autre caractère qui n'est pas une lettre de l'alphabet soit une virgule ou un espace ou apostrophe. donc à chaque fois que passons de l'état faux à l'état vrai nous faisons l'incrementation et continuons le parcours  jusqu'a ce que nous arrivons au point.
