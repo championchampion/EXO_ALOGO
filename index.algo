@@ -1,0 +1,64 @@
+
+Algorithm compter_element
+
+//declaration des variables 
+
+var
+lp, nb_mot, nb_voy, i: integer;
+phrase : string;
+c : char;
+alpha : booleen ;
+
+//initialisation des variables
+i:=0;
+lp:=0;
+nb_mot:=0;
+nb_voy:=0;
+alpha:=false;
+
+
+
+BEGIN
+
+// recuperation de la phrase 
+Write("entrez votre phrase");
+read ("phrase");
+
+
+
+
+WHILE (c <>'.')
+
+DO
+//parcours de phrase
+
+c:=phrase[i];
+
+//compteur de caractere
+i:=i+1;
+
+//compteur de voyelle
+IF c:=a or c:=e or c:=i or c:=y or c:=u or c=:o THEN nb_voy:=nb_voy+1; END_IF 
+
+//compteur de mot
+IF 
+
+c:=a or c:=b or c:=c or c:=d or c:=e or c=:f c:=g or c:=h or c:=i or c:=j or c:=k or c=:l c:=m or
+c:=n or c:=o or c:=p or c:=q or c=:r c:=s or c:=t or c:=u or c:=v or c:=w or c=:y or c=:y  THEN
+
+	IF alpha:=faux 
+	//nous avons trouvé un mot
+	THEN   nb_mot:=nb_mot+1; alpha:=true; END_IF
+ELSE 
+
+// un caracatère quelconque donc pas un mot
+ alpha:=false;  
+ 
+ END_IF 
+
+
+END_WHILE
+
+write ("le nombre de caractère est "lp  "le nombre de voyelle est "nb_voy    "le nombre de mot est " nb_mot ) ;
+
+END
